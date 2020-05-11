@@ -1,0 +1,11 @@
+.ReposListHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.ReposListMain {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}

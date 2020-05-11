@@ -2,14 +2,19 @@
     background: #4c56c0;
     padding: 20px;
     color:#ffffff;
+    border-radius: 0 25px 25px 0;
 }
 
 .Navigation ul {
     list-style: none;
-    
+    padding-inline-start: 0;
 }
 
 .ListItem {
     margin: 20px 20px;
     text-transform: uppercase;
+}
+
+.ListItem svg {
+    margin-right: 10px;
 }

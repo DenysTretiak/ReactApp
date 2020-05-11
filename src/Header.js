@@ -5,8 +5,8 @@ import logo from './images/logo.jpg';
 class Header extends Component {
     render() {
       return (
-        <div className="Header" style = {{ display: 'flex'}}>
-          <img src={logo} alt="GitCat logo" style = {{ width: '200px'}}/>
+        <div className="Header">
+          <img src={logo} alt="GitCat logo"/>
           <div className="HeaderInfoList">
             <div className="HeaderInfoListItem">
                 <div>Received events:</div> 

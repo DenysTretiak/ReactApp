@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './Header'
 import SideMenu from './SideMenu'
+import Main from './Main'
 
 class App extends Component {
   constructor(props) {
@@ -17,7 +18,7 @@ class App extends Component {
     fetch(`https://api.github.com/users/DenysTretiak`)
       .then(res => res.json())
       .then((result) => {
-        console.log(result);
+        // console.log(result);
         this.setState({
           avatarUrl: result.avatar_url,
           name: result.name,
@@ -39,6 +40,7 @@ class App extends Component {
             <Header 
               followers = {this.state.followers}
               publicRepos = {this.state.publicRepos}   />
+            <Main/>
         </div>
       </div>
     );

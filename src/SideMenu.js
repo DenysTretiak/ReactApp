@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import UserInfo from './UserInfo';
 import './SideMenu.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCodeBranch, faUsers, faUser, faLink } from '@fortawesome/free-solid-svg-icons'
 
 class SideMenu extends Component {
     render() {
@@ -11,10 +13,10 @@ class SideMenu extends Component {
             name={this.props.name}/>
            <div className="Navigation">
                <ul>
-                   <li className="ListItem"><a>Repositories</a></li>
-                   <li className="ListItem"><a>Followers</a></li>
-                   <li className="ListItem"><a>Subscriptions</a></li>
-                   <li className="ListItem"><a>About</a></li>
+                   <li className="ListItem"><a> <FontAwesomeIcon icon={faCodeBranch} /> Repositories</a></li>
+                   <li className="ListItem"><a> <FontAwesomeIcon icon={faUsers} /> Followers</a></li>
+                   <li className="ListItem"><a> <FontAwesomeIcon icon={faLink} /> Subscriptions</a></li>
+                   <li className="ListItem"><a> <FontAwesomeIcon icon={faUser} /> About</a></li>
                </ul>
             </div> 
         </div>
