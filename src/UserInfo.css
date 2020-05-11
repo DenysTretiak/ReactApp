@@ -1,0 +1,9 @@
+.UserInfo {
+  text-align: center;
+  padding: 20px;  
+}
+
+.UserAvatar {
+    width: 100px;
+    border-radius: 50%;
+}

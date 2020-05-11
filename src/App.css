@@ -1,5 +1,13 @@
 .App {
-  text-align: center;
+  display: flex;
+}
+
+.SideContent {
+  width: 25%;
+}
+
+.MainContent {
+  width: 75%;
 }
 
 .App-logo {

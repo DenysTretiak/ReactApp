@@ -1,0 +1,15 @@
+.SideMenu {
+    background: #4c56c0;
+    padding: 20px;
+    color:#ffffff;
+}
+
+.Navigation ul {
+    list-style: none;
+    
+}
+
+.ListItem {
+    margin: 20px 20px;
+    text-transform: uppercase;
+}
