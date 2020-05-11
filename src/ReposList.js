@@ -18,7 +18,6 @@ class ReposList extends Component {
     }
 
     render() {
-        console.log(this.state)
         return (
             <div className="ReposList">
                 <div className="ReposListHeader">
